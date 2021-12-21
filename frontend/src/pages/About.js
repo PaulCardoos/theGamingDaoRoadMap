@@ -1,10 +1,16 @@
 import React from 'react'
-
+import {Container, Row, Col} from "react-bootstrap"
 const About = () => {
     return (
-        <div>
-            About
-        </div>
+    <Container style={{position:"absolute"}}> 
+        <Row>
+            <Col>
+               <h1>
+                   
+               </h1>
+            </Col>
+        </Row>
+    </Container>
     )
 }
 
